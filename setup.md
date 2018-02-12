@@ -8,7 +8,7 @@
 `pip3 install virtualenv`
 
 ## (任意の開発用ディレクトリで)仮想環境の作成
-## ex) virtualenv <virtualenv name>
+ex) `virtualenv <virtualenv name>`
 `virtualenv venv`
 ## pip listした時にWARNINGが出るので設定ファイルを作成して以下を書き込む
 `vi venv/pip.conf`
