@@ -11,11 +11,13 @@
 ex) `virtualenv <virtualenv name>`
 `virtualenv venv`
 ## pip listした時にWARNINGが出るので設定ファイルを作成して以下を書き込む
-`vi venv/pip.conf`
+```
+vi venv/pip.conf
 -----
 [list]
 format=columns
 -----
+```
 
 ## 仮想環境の起動
 `source venv/bin/activate`
